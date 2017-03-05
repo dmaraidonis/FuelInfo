@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\dmaraid\\Android\\Projects\\FuelInfo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\menu_action_history.png",
+        "source": "C:\\Users\\dmaraid\\Android\\Projects\\FuelInfo\\app\\src\\main\\res\\drawable-xxhdpi\\menu_action_history.png"
+    },
+    {
+        "merged": "C:\\Users\\dmaraid\\Android\\Projects\\FuelInfo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\menu_action_save.png",
+        "source": "C:\\Users\\dmaraid\\Android\\Projects\\FuelInfo\\app\\src\\main\\res\\drawable-xxhdpi\\menu_action_save.png"
+    },
+    {
+        "merged": "C:\\Users\\dmaraid\\Android\\Projects\\FuelInfo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\menu_action_clear.png",
+        "source": "C:\\Users\\dmaraid\\Android\\Projects\\FuelInfo\\app\\src\\main\\res\\drawable-xxhdpi\\menu_action_clear.png"
+    },
+    {
+        "merged": "C:\\Users\\dmaraid\\Android\\Projects\\FuelInfo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\menu_action_import_export.png",
+        "source": "C:\\Users\\dmaraid\\Android\\Projects\\FuelInfo\\app\\src\\main\\res\\drawable-xxhdpi\\menu_action_import_export.png"
+    },
+    {
+        "merged": "C:\\Users\\dmaraid\\Android\\Projects\\FuelInfo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\dmaraid\\Android\\Projects\\FuelInfo\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    }
+]

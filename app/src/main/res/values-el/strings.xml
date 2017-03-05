@@ -1,0 +1,52 @@
+<resources>
+
+    <string name="btn_string_calculate">Υπολογισμός</string>
+    <string name="btn_string_next">Επόμενο ></string>
+    <string name="distanceUnit_with">km με</string>
+    <string name="enter_average_consumption">Εισάγετε την μέση κατανάλωση του οχήματός σας</string>
+    <string name="fuelDescription">Εισάγετε την επιθυμητή ποσότητα σε Ευρώ καθώς και την τιμή του καυσίμου, για τον υπολογισμό της ποσότητας σε λίτρα.</string>
+    <string name="menu_action_clear">Καθαρισμός</string>
+    <string name="menu_action_save">Αποθήκευση</string>
+    <string name="menu_action_history">Ιστορικό</string>
+    <string name="string_fuel_price">Τιμή καυσίμου?</string>
+    <string name="string_how_much_fuel">Ποσότητα καυσίμου?</string>
+    <string name="string_volUnit">" Λίτρα"</string>
+    <string name="toastEmptyConsumption">Η κατανάλωση δεν μπορεί να ειναι κενή.</string>
+    <string name="toastEmptyLitres">Για να συνεχίσετε υπολογίστε τα λίτρα.</string>
+    <string name="toastEmptyMoney">Η ποσότητα δεν μπορεί να είναι κενή.</string>
+    <string name="toastEmptyPrice">Η τιμή δεν μπορεί να είναι κενή.</string>
+    <string name="toastInfoCleared">Καθαρίστηκαν όλα τα πεδία.</string>
+    <string name="volUnit_of_fuel">" λίτρα καυσίμου."</string>
+    <string name="your_vehicle_can_travel">"Το όχημά σας μπορεί να διανύσει "</string>
+    <string name="date">Ημερομηνία</string>
+    <string name="money">Ποσό</string>
+    <string name="price">Τιμή</string>
+    <string name="litres">Λίτρα</string>
+    <string name="month">"Μήνας: "</string>
+    <string name="year">"Έτος: "</string>
+
+    <string-array name="months">
+        <item>Όλοι</item>
+        <item>Ιανουάριος</item>
+        <item>Φεβρουάριος</item>
+        <item>Μάριος</item>
+        <item>Απρίλιος</item>
+        <item>Μάιος</item>
+        <item>Ιούνιος</item>
+        <item>Ιούλιος</item>
+        <item>Αύγουστος</item>
+        <item>Σεπτέμβριος</item>
+        <item>Οκτώβριος</item>
+        <item>Νοέμβριος</item>
+        <item>Δεκέμβριος</item>
+    </string-array>
+    <string-array name="years">
+        <item>All</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+    </string-array>
+    
+    <string name="nothing_to_display_for_the_year">"Καμία εγγραφή για το έτος "</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:fuelinfo="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_clear"
+        android:orderInCategory="100"
+        fuelinfo:showAsAction="ifRoom"
+        android:title="@string/menu_action_clear"
+        android:icon="@drawable/menu_action_clear"/>
+
+</menu>

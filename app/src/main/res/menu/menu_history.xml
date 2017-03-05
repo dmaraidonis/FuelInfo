@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fuelinfo="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/menu_action_import_export"
+        android:icon="@drawable/menu_action_import_export"
+        android:title="@string/import_export"
+        fuelinfo:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/menu_action_import"
+                android:title="@string/menu_import"/>
+            <item
+                android:id="@+id/menu_action_export"
+                android:title="@string/menu_export"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_action_delete"
+        android:icon="@drawable/menu_action_clear"
+        android:title="@string/menu_string_delete_all"
+        fuelinfo:showAsAction="never">
+    </item>
+
+</menu>

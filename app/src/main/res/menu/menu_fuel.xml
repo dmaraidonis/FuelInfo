@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fuelinfo="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_show_history"
+        android:icon="@drawable/menu_action_history"
+        android:title="@string/menu_action_history"
+        fuelinfo:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_save_data"
+        android:icon="@drawable/menu_action_save"
+        android:title="@string/menu_action_save"
+        fuelinfo:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_clear"
+        android:icon="@drawable/menu_action_clear"
+        android:title="@string/menu_action_clear"
+        fuelinfo:showAsAction="never"/>
+
+</menu>

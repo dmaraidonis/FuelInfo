@@ -1,0 +1,271 @@
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fuel_image_background"
+    android:fillViewport="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FuelInfo" >
+
+    <RelativeLayout
+        android:id="@+id/layoutMainFuel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/fuelDescription"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <RelativeLayout
+            android:id="@+id/layoutMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvDescription"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="12dp"
+            android:layout_toLeftOf="@id/tvCenter" >
+
+            <TextView
+                android:id="@+id/tvMoney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/string_how_much_fuel"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/layoutETmoney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvMoney"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp" >
+
+                <EditText
+                    android:id="@+id/editMoney"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="3"
+                    android:gravity="center"
+                    android:hint="@string/money_hint"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/string_currency"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutMoneyButtons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layoutETmoney"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/layoutTwoFive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp" >
+
+                    <Button
+                        android:id="@+id/btnPlus2"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="40dp"
+                        android:layout_height="@dimen/buttons_height"
+                        android:onClick="plusTwoEuro"
+                        android:text="@string/plusTwo"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/btnPlus5"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="40dp"
+                        android:layout_height="@dimen/buttons_height"
+                        android:onClick="plusFiveEuro"
+                        android:text="@string/plusFive"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutTenTwenty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp" >
+
+                    <Button
+                        android:id="@+id/btnPlus10"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="45dp"
+                        android:layout_height="@dimen/buttons_height"
+                        android:onClick="plusTenEuro"
+                        android:text="@string/plusTen"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/btnPlus20"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="45dp"
+                        android:layout_height="@dimen/buttons_height"
+                        android:onClick="plusTwentyEuro"
+                        android:text="@string/plusTwenty"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvDescription"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@id/tvCenter" >
+
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/string_fuel_price"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/layoutETprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvPrice"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp" >
+
+                <EditText
+                    android:id="@+id/editPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="4"
+                    android:gravity="center"
+                    android:hint="@string/price_hint"
+                    android:inputType="numberDecimal"
+                    android:maxLength="5"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/string_euro_per_l"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutPriceButtons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layoutETprice"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/layoutEuroCents"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp" >
+
+                    <Button
+                        android:id="@+id/btnPlus1"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="38dp"
+                        android:layout_height="@dimen/buttons_height"
+                        android:onClick="plusOneEuro"
+                        android:text="@string/plusOneEuro"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/btnPlus01"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="48dp"
+                        android:layout_height="@dimen/buttons_height"
+                        android:onClick="plusTenCents"
+                        android:text="@string/plusTenCents"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutMilliCents"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp" >
+
+                    <Button
+                        android:id="@+id/btnPlus001"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="55dp"
+                        android:layout_height="@dimen/buttons_height"
+                        android:onClick="plusOneCent"
+                        android:text="@string/plusOneCent"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/btnPlus0001"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="62dp"
+                        android:layout_height="@dimen/buttons_height"
+                        android:onClick="plusOneMilliCent"
+                        android:text="@string/plusOneMilliCent"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvCalculatedLitres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutMoney"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/buttons_height"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:onClick="goToConsumption"
+            android:text="@string/btn_string_next"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnCalc"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/buttons_height"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:onClick="calcLitres"
+            android:text="@string/btn_string_calculate"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</ScrollView>

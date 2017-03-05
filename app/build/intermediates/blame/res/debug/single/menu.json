@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\dmaraid\\Android\\Projects\\FuelInfo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_fuel.xml",
+        "source": "C:\\Users\\dmaraid\\Android\\Projects\\FuelInfo\\app\\src\\main\\res\\menu\\menu_fuel.xml"
+    },
+    {
+        "merged": "C:\\Users\\dmaraid\\Android\\Projects\\FuelInfo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_history.xml",
+        "source": "C:\\Users\\dmaraid\\Android\\Projects\\FuelInfo\\app\\src\\main\\res\\menu\\menu_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\dmaraid\\Android\\Projects\\FuelInfo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_consumption.xml",
+        "source": "C:\\Users\\dmaraid\\Android\\Projects\\FuelInfo\\app\\src\\main\\res\\menu\\menu_consumption.xml"
+    }
+]
